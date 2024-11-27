@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alberto Lucas</title>
+    <style>
+        /* Resetando margens e padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilo geral do header */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header .container {
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Estilo para o título */
+        .title h1 {
+            font-size: 2.5em;
+            color: #333;
+        }
+
+        /* Estilo para os links do header */
+        header nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsividade para telas menores */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            header nav {
+                margin-top: 10px;
+            }
+
+            header nav a {
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Alberto Lucas</h1>
+    </div>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <!-- Logo ou nome pode ser colocado aqui -->
+                <a href="#" style="font-size: 1.8em; color: white;">Alberto Lucas</a>
+            </div>
+
+            <nav>
+                <!-- Links de navegação -->
+                <a href="https://github.com" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+                <!-- Mais links podem ser adicionados -->
+            </nav>
+        </div>
+    </header>
+
+</body>
+
+</html>
